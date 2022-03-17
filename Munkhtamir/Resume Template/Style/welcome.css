@@ -1,0 +1,53 @@
+body {
+  background-image: url(https://www.teahub.io/photos/full/288-2885603_synthwave-wallpaper-gif.gif);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-family: "Neonderthaw", cursive;
+  font-size: 8vw;
+  text-align: center;
+}
+h2 {
+  font-family: "Neonderthaw", cursive;
+  font-size: 8vw;
+  text-align: center;
+}
+#text {
+  display: flex;
+  text-shadow: 3px 3px 3px #000000;
+  color: #00ffff;
+  margin: auto;
+  margin-left: 20vw;
+}
+h3 {
+  text-align: center;
+  margin-top: 50vh;
+  text-transform: uppercase;
+}
+
+.button1 {
+  background-color: #00ffff;
+  color: black;
+  margin: auto;
+  text-align: center;
+  border-radius: 7px;
+  padding: 3px 3px;
+  text-decoration: none;
+  display: block;
+  font-size: 2vw;
+  margin: 3px 3px;
+  cursor: pointer;
+  width: 10vw;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+.button1 {
+  margin: auto;
+}
+#home {
+  display: inline;
+}

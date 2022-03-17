@@ -1,0 +1,133 @@
+#Top h1 {
+  text-align: left;
+  font-size: 5vw;
+  font-family: "Neonderthaw", cursive;
+  color: #00ffff;
+  margin: 5px;
+}
+
+#Top {
+  display: flex;
+}
+#upper {
+  text-align: right;
+  margin-left: 29vw;
+  margin-top: 30px;
+  margin-right: 5px;
+}
+#Top a {
+  color: #00ffff;
+  /* margin-left: 3px; */
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 2px #ff0000;
+  margin: auto;
+}
+a:link {
+  text-decoration: none;
+}
+
+#Profile {
+  border: solid 3px #003049;
+  background-color: #002f49d7;
+  color: aliceblue;
+}
+#Experience {
+  border: solid 3px #d62828;
+  background-color: #d62828d2;
+  color: aliceblue;
+}
+#Education {
+  border: solid 3px #f77f00;
+  background-color: #f78000c4;
+  color: aliceblue;
+}
+#Skills {
+  border: solid 3px #fcbf49;
+  background-color: #fcc049bd;
+}
+#Contact {
+  border: solid 3px #eae2b7;
+  background-color: #eae2b7af;
+}
+footer {
+  text-align: center;
+  margin-top: 16vh;
+  color: #00ffff;
+}
+body {
+  font-family: Tahoma, Verdana, sans-serif;
+  background-image: url(https://www.teahub.io/photos/full/288-2885603_synthwave-wallpaper-gif.gif);
+  background-size: 100%;
+}
+.Part1 {
+  margin: 80px 20px;
+
+  width: 25vw;
+}
+#undsen h2 {
+  text-align: center;
+}
+.part1 ul li {
+  font-size: 5px;
+  text-align: left;
+}
+#undsen {
+  display: flex;
+}
+.Part1:hover {
+  transform: scale(115%);
+  box-shadow: 7px 7px 5px rgb(0, 0, 0);
+}
+
+a:hover {
+  color: rgb(246, 255, 127);
+}
+
+img {
+  opacity: 0.6;
+
+  margin-left: 43vw;
+}
+
+img:hover {
+  opacity: 1;
+  transform: scale(110%);
+}
+ul li {
+  list-style: none;
+}
+@media (max-width: 769px) {
+  img {
+    width: 10vw;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 5px;
+  }
+  body {
+    width: 100vw;
+  }
+  .Part1 {
+    display: block;
+    width: 70vw;
+    margin: auto;
+    margin-top: 10px;
+  }
+  #Profile {
+    display: block;
+  }
+  #undsen {
+    display: block;
+    width: 70vw;
+    margin: auto;
+  }
+  #Top {
+    text-align: right;
+    font-size: 10px;
+    /* margin: auto; */
+  }
+  #Top a {
+    text-align: right;
+  }
+}
