@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(to bottom, blue, green);
+  width: 200vw;
+}
+.img {
+  border-radius: 50%;
+  width: 30%;
+  opacity: 0.5;
+}
+.sec {
+  width: 200vw;
+  height: auto;
+  display: flex;
+}
+.sec h2 {
+  color: red;
+  text-align: center;
+}
+.sec p {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 10px 10px 10px;
+  /* top, right, bottom, left */
+}
+.left {
+  margin-left: 5px;
+}
+.flex {
+  display: flex;
+}
+
+#header {
+  text-align: center;
+}
+#header ul li {
+  list-style: none;
+}
+#header ul {
+  display: flex;
+}
+#header {
+  padding: 20px 40px;
+}
+.img:hover {
+  opacity: 1;
+}

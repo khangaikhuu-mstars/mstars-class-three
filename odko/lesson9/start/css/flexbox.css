@@ -1,0 +1,49 @@
+/* ================================= 
+  Flexbox
+==================================== */
+
+/* flex-direction- haashaa ywah chiglel row,column  */
+/* flex-direction: row; */
+/* reverse - esreg talaas ni zoodog */
+/* inline - hoishoogoo tsuwna ; block- dooshoo tsuwna*/
+/* wrap - orooh */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+  /* yag tentsuu huwaadag justify-content: space-around;*/
+  /* justify-content: space-around; */
+  /* 2talig shahad dunda tenstu zai awdag justify-content: space-between;*/
+
+  /* flex-wrap: wrap-reverse; */
+}
+.item {
+  flex-grow: 1;
+  /* ergen toirniiho zaig awaad orgon boldog */
+  margin: 5px;
+  text-align: center;
+}
+/* flex-wrap: wrap-reverse -> footer deer hiine doorosoo deeshee ywna */
+
+/* Justify Content */
+.item-1 {
+  margin-left: auto;
+  flex-grow: 10 200px;
+  /* ergen toirniiho zaig awaad orgon boldog */
+}
+/* coln -> :  */
+/* Property - display.margin, padding geh met utga awch biaga zuilig helj baiga */
+/* justify, margin-auto 2 ijilhen  */
+
+.item-3 {
+  order: -1;
+}
+/* default utga ni 0 baina */
+/* z-index, order 2 tostei */
+
+/* flex base */
+/* flex-grow; blex-base -> neg argar bichij boldog */
+
+/* flex: 5 200px */

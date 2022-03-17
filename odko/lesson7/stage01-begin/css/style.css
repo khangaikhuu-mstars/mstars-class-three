@@ -1,0 +1,103 @@
+body {
+  color: #454959;
+  font-weight: 300;
+}
+
+/* Web Fonts ----------------------- */
+@font-face {
+  font-family: "headerFormatter";
+  src: url(../fonts/abolition-regular-webfont.woff) format("woff");
+
+  /* extension - format("woff")*/
+  /* ttf - phone,
+  woff - web deer ashigladg */
+}
+
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+main {
+  hyphens: auto;
+  /* uyer tasaldag */
+}
+html {
+  font-size: 1.25em; /* 20px on most screens */
+}
+h1,
+h2 {
+  font-family: "headerFormatter", Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  font-family: "BhuTuka Expanded One", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Smooch Sans", sans-serif;
+}
+img {
+  width: 100%; /* responsive images */
+}
+
+/* Main Styles --------------------- */
+
+h1::before {
+  content: "\2661";
+  /* forward/backward clash  textni omno tawina */
+}
+h1::after {
+  content: "\00A9";
+  /* forward/backward clash  */
+  /* textni hoini tawina */
+}
+
+/* Media Queries ------------------- */
+
+header,
+footer {
+  text-align: center;
+}
+header {
+  background-color: coral;
+  text-shadow: -2px -5px 5px black;
+}
+
+#wildlife {
+  padding: 20px;
+  border-radius: 50px 50px;
+  background-color: aquamarine;
+  /* text-shadow: 2px 2px 5px coral;
+  box-shadow: inset 5px 5px 15px red, inset -5px -5px 15px blue; */
+  /* inset dotor talasaa suuder awna
+ */
+  text-align: center;
+  width: 50%;
+  margin: auto;
+
+  background-image: url(../img/mountain-landscape.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center, center center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  /* filtertei ijilhen */
+}
+
+#wildlife:hover {
+  box-shadow: 2px 2px 15px green;
+  background-color: orchid;
+  /* hugatsaag ni zaaj ogdog */
+  transition: box-shadow 0.5s;
+  padding: 10px;
+}
+
+.detail {
+  opacity: 0;
+  /* display: none; */
+  /* delgetsen haragdahgui bolgono chini text  */
+}
+#wildlife:hover .detail {
+  /* display: contents; */
+  opacity: 1;
+  transition: opacity 2s;
+}

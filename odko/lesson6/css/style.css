@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#box1 {
+  display: inline-block;
+  background-color: burlywood;
+  /* width, height ogch bolno */
+  width: 30%;
+  padding: 3vw;
+  height: 200%;
+  border-right: 1px solid black;
+}
+.image {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 5vw;
+}
+.left {
+  float: left;
+}
+
+#box2 {
+  display: inline-block;
+  background-color: bisque;
+  width: 70%;
+  height: 200%;
+}
+.box4 {
+  padding: 0 5vw;
+  margin-top: 7vw;
+}
+.clearfix {
+  clear: both;
+}
+.fix {
+  position: fixed;
+  background-color: burlywood;
+  width: 100%;
+  color: black;
+}
+
+.fix1 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.fixed2 {
+  position: fixed;
+  bottom: 0;
+  left: 0%;
+}
+
+.fix1 img {
+  width: 25%;
+  float: right;
+  border-radius: 50%;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+h2 {
+  margin-left: 5vw;
+}
+h4,
+p {
+  margin-bottom: 3vw;
+}
+.back {
+  position: sticky;
+  /* deereesee 10px zaitai uldene */
+  background-color: orange;
+  padding: 20px;
+  top: 27px;
+  margin-bottom: 5vw;
+}
+p {
+  font-size: 1.2em;
+}
+html {
+  font-size: 20px;
+}
