@@ -1,0 +1,134 @@
+/* Web Fonts ----------------------- */
+
+@font-face {
+  font-family: "headerFormatter";
+  src: url("../fonts/abolition-regular-webfont.woff") format("woff");
+}
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1.25em; /* 20px on most screens */
+}
+img {
+  width: 100%; /* responsive images */
+}
+h1 {
+  font-family: "headerFormatter", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+h2 {
+  font-family: "headerFormatter", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+body {
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  color: #454959;
+  font-weight: 300;
+  background-color: rgb(212, 219, 226);
+}
+#top {
+  text-align: center;
+  background-color: darkgrey;
+  color: aliceblue;
+  text-shadow: 2px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 60px 60px 40px 40px;
+}
+.main-footer {
+  text-align: center;
+}
+main {
+  hyphens: auto;
+
+  margin: 5%;
+}
+#wildlife {
+  margin: 5%;
+  background-color: #989ca8;
+  border-radius: 60px 60px;
+  border: black;
+  padding: 2%;
+  box-shadow: 5px 5px 5px black, -5px 5px 5px black;
+  color: black;
+  width: 90%;
+
+  /* background-image: url(../img/bear.jpg); */
+  background-size: 100%;
+}
+#wildlife:hover {
+  background-color: #1c2030;
+  color: aliceblue;
+  box-shadow: 5px 5px 10px rgb(124, 167, 204);
+  transition: background-color 3s, color 3s;
+}
+#wildlife h2 {
+  text-align: center;
+}
+a {
+  color: rgb(28, 39, 102);
+  list-style-type: none;
+}
+#wildlife:hover a {
+  color: rgb(156, 144, 129);
+  transition: color 3s;
+}
+
+/* Main Styles --------------------- */
+.intro {
+  background-color: #989ca8;
+  color: black;
+  text-align: center;
+  border-radius: 60px 60px;
+  padding: 2%;
+  width: 100%;
+
+  box-shadow: 5px 5px 5px black, -5px 5px 5px black;
+}
+.intro a {
+  color: rgb(28, 39, 102);
+}
+.intro:hover {
+  background-color: #1c2030;
+  color: aliceblue;
+  box-shadow: 5px 5px 10px rgb(124, 167, 204);
+  transition: background-color 3s, color 3s;
+}
+.intro:hover a {
+  color: rgb(156, 144, 129);
+  transition: color 3s;
+}
+.column {
+  background-color: #989ca8;
+  color: black;
+  text-align: center;
+  border-radius: 60px 60px;
+  padding: 2%;
+  width: 100%;
+  margin: 2%;
+
+  box-shadow: 5px 5px 5px black, -5px 5px 5px black;
+}
+.column:hover {
+  background-color: #1c2030;
+  color: aliceblue;
+  box-shadow: 5px 5px 10px rgb(124, 167, 204);
+  transition: background-color 3s, color 3s;
+}
+.column:hover a {
+  color: rgb(156, 144, 129);
+  transition: color 3s;
+}
+ul {
+  list-style-type: none;
+}
+ol {
+  text-align: left;
+}
+img {
+  border-radius: 10%;
+}
+
+/* Media Queries ------------------- */

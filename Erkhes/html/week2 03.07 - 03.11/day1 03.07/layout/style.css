@@ -1,0 +1,38 @@
+header {
+  text-align: center;
+}
+body {
+  width: 200vw;
+  background-image: linear-gradient(red, yellow);
+}
+img {
+  width: 30%;
+  border-radius: 50%;
+}
+.sec {
+  margin: 4vw;
+  display: flex;
+  width: 200vw;
+}
+.sec h2 {
+  color: orange;
+  text-align: center;
+}
+.sec p {
+  font-family: "Times New Roman", Times, serif;
+  background-color: blanchedalmond;
+  padding: 10px 20px 30px 40px;
+}
+.ul {
+  list-style-type: none;
+}
+div {
+  width: 100vw;
+  margin: 2px;
+}
+img {
+  opacity: 0.5;
+}
+img:hover {
+  opacity: 1;
+}
