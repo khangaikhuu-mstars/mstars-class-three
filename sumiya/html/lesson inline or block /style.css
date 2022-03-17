@@ -1,0 +1,112 @@
+/* * {
+  box-sizing: border-box;
+} */
+.gadna {
+  /* display: inline-block; */
+  width: 60vw;
+  /* margin: 0px;    */
+  /* right: 500px; */
+  margin-left: 20%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.rightside {
+  /* border: 1px solid black; */
+  width: 30%;
+  background-color: rgb(241, 221, 194);
+  margin: 0px;
+  height: 200vh;
+  top: 0px;
+  float: left;
+}
+.leftside {
+  /* border: 1px solid black; */
+  width: 70%;
+  margin: 0px;
+  height: 200vh;
+  background-color: antiquewhite;
+  top: 0px;
+  float: right;
+  /* padding: 10px;     */
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding-top: 20px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.clearfix {
+  clear: both;
+}
+.rightside ul {
+  list-style: none;
+}
+.rightside h2 {
+  text-align: left;
+  padding: 30px;
+}
+.sticky {
+  position: sticky;
+  border: 0px solid black;
+  top: 10px;
+  text-align: center;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 100px;
+  width: 300px;
+  height: 300px;
+  border: 3px solid antiquewhite;
+}
+
+.fixed h4 {
+  position: fixed;
+  /* top: 0px; */
+  bottom: 284px;
+  right: 100px;
+  width: 300px;
+  height: 30px;
+  border: 3px solid antiquewhite;
+  background-color: antiquewhite;
+  text-align: center;
+}
+img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-left: 30px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  /* border: 2px solid rgb(0, 0, 0); */
+  transition: all 0.5s;
+  /* text-align: center; */
+  /* box-sizing: 1px sol border-box ; */
+}
+img:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+.div1-ul a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.contact {
+  margin-left: 0%;
+}
+.main-content {
+  padding: 10%;
+}
