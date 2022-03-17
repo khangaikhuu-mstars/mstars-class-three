@@ -1,0 +1,31 @@
+.sec1 {
+  background-color: aqua;
+  width: 500px;
+  height: 400px;
+  border: solid 2px;
+}
+#all {
+  display: flex;
+}
+.sec2 {
+  background-color: aqua;
+  width: 500px;
+  height: 400px;
+  border: solid 2px;
+}
+#edu {
+  display: flex;
+}
+#other {
+  border: solid 2px;
+  background-color: aqua;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+}

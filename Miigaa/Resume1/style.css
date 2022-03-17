@@ -1,0 +1,81 @@
+.leftside {
+  width: 20%;
+  height: 100vh;
+  background-color: rgb(61, 59, 59);
+  margin: 0px;
+  float: left;
+  color: white;
+}
+.rigthside {
+  width: 80%;
+  height: 100vh;
+  background-color: rgb(248, 248, 248);
+  float: right;
+}
+
+.side {
+  width: 70%;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.cleafix {
+  clear: both;
+}
+.pro {
+  border-radius: 70%;
+  border-style: solid;
+  border-color: black;
+  width: 120px;
+  height: 100px;
+  transition: all 0.5s;
+  float: left;
+  margin: 50px;
+}
+
+.contact {
+  margin-right: 10px;
+}
+.head1 {
+  margin-left: 20px;
+  color: rgb(61, 59, 59);
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+}
+.head2 {
+  margin-left: 20px;
+  color: rgb(61, 59, 59);
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+}
+.school {
+  background-color: grey;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+.sur {
+  display: flex;
+}
+.jil {
+  margin: 0;
+  padding: 0;
+  margin-left: 150px;
+}
+.a {
+  line-height: 20%;
+  font-style: italic;
+  font-size: 20px;
+}
+.on {
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+.jil1 {
+  margin: 0;
+  padding: 0;
+  margin-left: 160px;
+}

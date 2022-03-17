@@ -1,0 +1,126 @@
+/* Web Fonts ----------------------- */
+
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1.25em; /* 20px on most screens */
+}
+body {
+  line-height: 1.5;
+  font-family: "Fredoka", sans-serif;
+  color: white;
+  background-image: url("../img/P5ABoL.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+img {
+  width: 100%; /* responsive images */
+}
+h1 {
+  font-family: "font1";
+}
+h1:before {
+  content: "\2661";
+}
+@font-face {
+  font-family: "font1";
+  src: url(../fonts/abolition-regular-webfont.ttf) format("woff");
+  font-weight: 300;
+}
+main {
+  hyphens: auto;
+}
+header,
+footer {
+  text-align: center;
+}
+header {
+  text-shadow: 2px 5px 3px grey;
+}
+#fonts {
+  font-family: "Fredoka", sans-serif;
+}
+.intro {
+  line-height: 1.5;
+}
+#wildlife {
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+  background-image: url("../img/uul.jpeg");
+  background-size: 100%;
+  color: white;
+  height: auto;
+  background-repeat: no-repeat;
+}
+#wildlife:hover {
+  color: white;
+  text-shadow: none;
+  width: 105%;
+  margin: auto;
+  transition: box-shadow 1s;
+  transition: width 1s, height 1s;
+  background-size: 100%;
+}
+.wild {
+  display: flex;
+}
+.detail {
+  opacity: 0;
+}
+#wildlife:hover .detail {
+  opacity: 1;
+  transition: opacity 1s;
+}
+.wildlife1:hover .detail {
+  opacity: 1;
+  transition: opacity 1s;
+}
+.wildlife1 {
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  width: 100%;
+  background-image: url("../img/uul.jpeg");
+  background-size: 100%;
+  color: white;
+  height: auto;
+  background-repeat: no-repeat;
+}
+.wildlife1:hover {
+  color: white;
+  text-shadow: none;
+  width: 105%;
+  margin: auto;
+  transition: box-shadow 1s;
+  transition: width 1s, height 1s;
+  background-size: 100%;
+  transition: display 1s;
+}
+.column {
+  background-image: url("../img/mountains.jpg");
+  background-size: cover;
+  background-size: 70% 100%;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  color: black;
+  padding: 10px;
+  background-repeat: no-repeat;
+}
+.another {
+  background-image: url("../img/mountain-landscape.jpg");
+  background-size: cover;
+  background-size: 70% 100%;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  color: grey;
+  background-repeat: no-repeat;
+}
+/* Main Styles --------------------- */
+
+/* Media Queries ------------------- */

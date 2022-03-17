@@ -1,0 +1,16 @@
+/* ================================= 
+  Flexbox
+==================================== */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.item-3 {
+  order: -1;
+  flex-grow: 1;
+}
+.item-6 {
+  flex-grow: 3;
+}

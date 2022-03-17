@@ -1,0 +1,149 @@
+body {
+  background-color: #eee;
+}
+.cover {
+  background-image: url("../img/cover1.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 250px;
+  z-index: 0;
+  /* width: 100%;
+  height: 250px; */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.cover {
+  z-index: 0;
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+}
+.center1 {
+  font-family: "Fredoka", sans-serif;
+  text-align: center;
+  font-size: 65px;
+  color: white;
+  margin-top: 20px;
+}
+.center2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+#mainnav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+#mainmenu {
+  margin-left: 10%;
+  width: 100%;
+}
+#mainmenu ul li {
+  list-style: none;
+  padding: 0 0;
+  margin-left: 50%;
+  text-align: center;
+  display: inline;
+}
+#mainmenu ul li a:hover {
+  color: black;
+}
+#mainmenu ul {
+  display: flex;
+  width: 20%;
+}
+#mainmenu ul li a {
+  text-decoration: none;
+}
+#maintag a {
+  margin: 10px;
+  float: left;
+  margin-left: 30px;
+}
+#maintag {
+  display: flex;
+}
+#mainnav ul,
+a {
+  display: flex;
+}
+.search {
+  margin: 10px;
+}
+.bar {
+  /* text-align: center;
+  padding: 9px;
+  margin: 10px;
+  margin-left: 250px;
+  width: 100%; */
+}
+.menubar a {
+  text-decoration: none;
+  color: white;
+}
+.menubar a:hover {
+  color: grey;
+}
+.menubar {
+  background-color: #2f3633;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.picture {
+  width: 50%;
+  height: 10%;
+  margin: 30px;
+  border-radius: 11%;
+}
+.pictures {
+  background-image: url("../img/pic.jpg");
+  background-size: 800px 660px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 30%;
+  height: 67%;
+  vertical-align: middle;
+  border-radius: 25px;
+  margin: 20px;
+  position: absolute;
+  padding: 0 50px;
+  z-index: 1;
+  margin-left: 250px;
+}
+.text1 {
+  color: white;
+  font-size: 60px;
+  top: 0px;
+  position: absolute;
+}
+.text2 {
+  color: white;
+  position: absolute;
+  top: 80px;
+  font-size: 47px;
+}
+.glass {
+  background-color: black;
+  width: 100%;
+  height: 30%;
+  opacity: 0.5;
+  position: absolute;
+  margin-left: -50px;
+  border-radius: 25px;
+}
+.glass p {
+  opacity: 0;
+}
+.pictures a:hover {
+  color: #2f3633;
+}
+.pictures a {
+  text-decoration: none;
+  color: white;
+}
