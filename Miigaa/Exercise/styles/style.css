@@ -1,0 +1,18 @@
+.sec {
+  background-color: aqua;
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+.sec1 {
+  display: flex;
+  width: 30%vw;
+}
+.sec2 {
+  display: flex;
+  width: 50%vw;
+}
+.h1 {
+  text-align: center;
+}

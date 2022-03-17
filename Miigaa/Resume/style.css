@@ -1,0 +1,43 @@
+#profile:hover {
+  width: 120px;
+  height: 100px;
+  border-radius: 360%;
+  transform: scale(1.2) rotate(360deg);
+  opacity: 1;
+}
+
+.contact {
+  margin-top: 50px;
+}
+.bugd {
+  display: flex;
+}
+.ner {
+  text-align: center;
+}
+.education {
+  font-family: cursive;
+}
+
+#profile {
+  border-radius: 70%;
+  border-style: solid;
+  border-color: black;
+  width: 100px;
+  height: 100px;
+  transition: all 0.5s;
+  float: left;
+  opacity: 0.5;
+}
+.sec1 {
+  display: flex;
+  text-align: left;
+}
+.body {
+}
+.leftside {
+  width: 30vw;
+  height: 100vh;
+  display: inline-block;
+  background-color: rgb(62, 62, 143);
+}
