@@ -1,0 +1,103 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-size: 13px;
+    line-height: 20px;
+}
+header{
+    border: gray solid 0.3vw;
+    text-align: center;
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+}
+@media screen and (max-width: 1200px) and (min-width: 600){
+    .right{
+        font-size: 1rem;
+        width: 70px;
+        height: 100px;
+        float: right;
+        margin-top: 60px; 
+    }
+}
+.left{
+   
+    width: 30%;
+    height: 200vh;
+    float: left;
+    margin-top: 60px;
+    font-size: 1rem;
+
+}
+.left h2{
+    margin: 5%;
+}
+.left p{
+    margin: 5%;
+    text-align: justify;
+}
+.right{
+    font-size: 1rem;
+    width: 70%;
+    height: 200vh;
+    float: right;
+    margin-top: 60px; 
+}
+.right h2{
+    margin: 5%;
+}
+.right p{
+    margin: 5%;
+    text-align: justify;
+}
+.about{
+    border: black solid 0.1vw;
+    margin: 5%;
+    background-image: url(/Images/pexels-matheus-natan-3297593.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.edu{ 
+    border: black solid 0.1vw;
+    margin: 5%;
+    background-image: url(/Images/pexels-matheus-natan-3297593.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.job{
+    border: black solid 0.1vw;
+    margin: 5%;
+    background-image: url(/Images/pexels-matheus-natan-3297593.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.profile{
+    border-radius: 50%;
+    height: 200px;
+    width: 150px;
+    margin-left: 5vw;
+    margin-top: 4vh;
+}
+.hobby{
+    border: black solid 0.1vw;
+    margin: 5%;
+    background-image: url(/Images/pexels-matheus-natan-3297593.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.contact{
+    border: black solid 0.1vw;
+    margin: 5%;
+    background-image: url(/Images/pexels-matheus-natan-3297593.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body {
+    background-image: url(/Images/pexels-max-andrey-1254736.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
