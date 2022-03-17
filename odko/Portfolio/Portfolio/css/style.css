@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  font-size: 1.2em;
+}
+.container {
+  max-width: 1100px;
+  line-height: 1.2em;
+  margin: auto;
+  padding: 0 20px;
+}
+.clearfix {
+  clear: both;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.marginT {
+  margin-top: 30px;
+}
+
+/* Menulist */
+header {
+  background: url(../0/3.jpg) center center / cover no-repeat;
+  height: 600px;
+}
+
+#navbar {
+  background-color: rgba(24, 3, 59, 0.3);
+  padding: 20px;
+}
+.menuList {
+  float: right;
+}
+.menuList ul li {
+  display: inline;
+  padding-left: 15px;
+}
+
+.menuList ul li a:hover {
+  color: #120028;
+}
+
+/* logo */
+.logo img {
+  float: left;
+  width: 2%;
+}
+
+/* showcase */
+
+.showcase-content {
+  color: white;
+  text-align: left;
+  padding-top: 170px;
+}
+
+/* Lesson-content */
+#hicheel {
+  width: 1100px;
+  margin: auto;
+}
+.lesson-Contet {
+  margin: 20px 0;
+  display: flex;
+}
+.lesson-Show {
+  float: left;
+  width: 31%;
+  height: 20%;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px gray;
+  background-image: url("../0/4.jpg");
+  background-size: 100% 100%;
+  opacity: 1;
+
+  transition: width 2s, height 2s;
+}
+.lesson-Show:hover {
+  display: block;
+  width: 40%;
+  height: 30%;
+  transition: width 2s, height 4s;
+}
+.lesson-Show h3 {
+  text-align: center;
+  color: white;
+}
+.lesson-Show h3:hover {
+  text-shadow: 2px 2px 5px black;
+}
+.lesson-Show p {
+  display: none;
+}
+.lesson-Show p:hover {
+  display: block;
+}
+
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  background: #143e78;
+  color: white;
+  padding: 20px;
+}
