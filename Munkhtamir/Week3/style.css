@@ -1,0 +1,13 @@
+body {
+  width: 70%;
+  margin: auto;
+}
+ul li {
+  display: inline-block;
+}
+@media (max-width) {
+  body {
+    width: 90%;
+    margin: auto;
+  }
+}
