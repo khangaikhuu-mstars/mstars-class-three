@@ -1,0 +1,54 @@
+#img {
+  border-radius: 50%;
+  width: 10%;
+  opacity: 0.8;
+}
+#img:hover {
+  opacity: 1;
+}
+.sec h2 {
+  color: rgb(141, 130, 33);
+  text-align: center;
+}
+.sec p {
+  background-color: rgb(146, 108, 58);
+  padding: 10px 20px 30px 40px;
+  color: blanchedalmond;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    98deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(107, 59, 180, 1) 26%,
+    rgba(55, 189, 160, 1) 48%,
+    rgba(156, 199, 153, 0.2) 95%
+  );
+  text-align: center;
+}
+#header {
+  text-align: center;
+}
+#header ul {
+  /* text-align: center; */
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+#header ul li {
+  /* text-align: center; */
+  list-style: none;
+  /* display: flex; */
+  text-align: center;
+  padding-inline-start: 0px;
+}
+.about {
+  display: flex;
+  width: 200vw;
+}
+.about p {
+  margin-left: 10px;
+}
+#header li {
+  width: 100vw;
+}
