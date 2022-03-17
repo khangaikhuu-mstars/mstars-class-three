@@ -1,0 +1,88 @@
+.item {
+  background: gray;
+  border: #ccc solid 1px;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex: 1;
+  margin: 0.7rem;
+  /* browseriin tsonhni hemjeetei ijilhen duurgehin husdeg terig ni flex:1 hiine */
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; */
+}
+
+/* flex-flow ni flex-direction,flex-wrap moriin negtgej towchilj bichdeg */
+/* wrap 1 morond olon elemet baiwal iluu garna iluu garsnig wrap ashiglan 
+tentsiilj boldog */
+
+.item1:first-child {
+  flex: 2;
+  /* ehnii item maani ih utgiig awna gesen ug sidebarig ingej hiij boldog */
+}
+
+#container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item1 {
+  background: antiquewhite;
+  border: #ccc solid 1px;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex: 1;
+  margin: 0.7rem;
+}
+
+/* example3 */
+#container2 {
+  display: flex;
+  /* hewtee tenhlegiin daguuu zeregtsuulelt hiine */
+  justify-content: space-evenly;
+  /* zeregtsuuleltiin songolt :
+  justify-content : gedetg bol dotor ni aguulagdaj baigaa buh zuiliig helne
+  flex-start
+  flex-end
+  center
+  space-between
+  space-around
+  space-evenly
+  */
+
+  height: 600px;
+  background-color: blueviolet;
+  /* bosoo tehlegiin daguu zeregtsuulelt hiine teghdee zaawal item-daa  height ogoh ystoi */
+  align-items: center;
+
+  /* 
+  
+  zeregtsuuleltiin songolt :
+  flex-start
+  flex-end
+  center
+  baseline
+  stretch
+  */
+}
+
+.item2 {
+  background: aqua;
+  border: #ccc solid 1px;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0.7rem;
+  flex-basis: 150px;
+  /*  flex-basis: 300px; ene bol orgon ogsontei ijilhen flex deer hereledeg   width: 300px;*/
+}
+
+.item2:first-child {
+  align-self: flex-end;
+}
