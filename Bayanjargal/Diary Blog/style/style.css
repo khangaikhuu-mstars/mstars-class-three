@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  color: antiquewhite;
+  text-align: center;
+  background-image: url("../pictures/venice-florence-rome-tour-rialto-bridge-venice-2014.jpeg");
+  background-repeat: no-repeat;
+  background-blend-mode: 10px;
+  background-size: 100% 350px;
+  padding: 10px;
+}
+header h1 {
+  font-family: "Freehand", cursive;
+  font-size: 100px;
+  color: antiquewhite;
+  text-align: center;
+}
+#head {
+  background-color: rgb(78, 77, 77);
+  color: aliceblue;
+  border-color: rgb(68, 63, 63);
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-basis: 100px;
+  position: sticky;
+  top: 0;
+}
+.title {
+  color: rgb(215, 224, 233);
+}
+.leftcolumn {
+  float: left;
+  width: 70%;
+}
+.rigthcolumn {
+  float: right;
+  width: 30%;
+}
+.image img {
+  width: 100%;
+  padding: 20px;
+  border-radius: 50px;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.row {
+  content: "";
+  display: table;
+  clear: both;
+  padding-top: 0px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(101, 99, 99);
+  height: 150px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 700px) {
+  .leftcolumn,
+  .rigthcolumn {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+}
+@media (max-width: 400px) {
+  .head {
+    width: 100%;
+    margin: auto;
+    float: none;
+  }
+}
+
+#search {
+  width: 100%;
+  height: 30px;
+  background-image: url(../pictures/search.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  border-radius: 30px;
+  background-size: 30px 30px;
+  margin: auto;
+}
+.nav a {
+  display: inline-block;
+  width: 19%;
+  margin: auto;
+}
+.sideContent {
+  display: flex;
+  padding: 10px;
+}
+.sideContent img {
+  width: 30%;
+  border-radius: 30px;
+}
+.rigthdiv {
+  text-align: center;
+}
+h2 {
+  border: solid 1px;
+  background-color: rgb(83, 81, 81);
+  color: aliceblue;
+  border-radius: 30px;
+  padding: 10px;
+  text-shadow: 3px 3px 3px rgb(233, 225, 223);
+}
+.rigthdiv2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #eee;
+}
+body p {
+  color: black;
+}
+.img1 {
+  width: 70px;
+  transition: 0.5s;
+}
+.img1:hover {
+  width: 300px;
+  height: 200px;
+  transition: width 1s;
+}
